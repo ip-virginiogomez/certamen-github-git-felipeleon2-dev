@@ -4,8 +4,8 @@ Este archivo es solo para que recuerdes los comandos básicos durante el certame
 
 ## Configuración inicial
 ```bash
-git config --global user.name "Tu Nombre"
-git config --global user.email "correo@ejemplo.com"
+git config --global user.name ""
+git config --global user.email ""
 ```
 
 ## Flujo básico de trabajo

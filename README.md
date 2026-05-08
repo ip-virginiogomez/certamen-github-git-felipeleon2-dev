@@ -16,7 +16,7 @@ Este certamen evalúa el manejo básico de Git y GitHub. Debes completar **todas
 Asegúrate de tener configurado Git con tu nombre y correo:
 
 ```bash
-git config --local user.name "Tu Nombre"
+git config --local user.name ""
 git config --local user.email "tu.correo@ejemplo.com"
 ```
 

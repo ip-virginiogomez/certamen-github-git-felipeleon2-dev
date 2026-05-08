@@ -10,21 +10,21 @@ PREGUNTA 1 (5 pts)
 ¿Cuál es la diferencia entre "git add" y "git commit"?
 
 Tu respuesta:
-[Escribe aquí]
+git add se utiliza para seleccionar y agregar los cambios de archivos específicos al "staging area" (área de preparación). Es el paso previo para decirle a Git qué archivos quieres incluir en la siguiente versión. Por otro lado, git commit confirma esos cambios y los guarda permanentemente en el historial del repositorio local, creando una nueva versión (instantánea) con un mensaje descriptivo.
 
 ----------------------------------------------------------------
 PREGUNTA 2 (5 pts)
 ¿Qué hace el comando "git pull"? ¿Cuándo debes usarlo?
 
 Tu respuesta:
-[Escribe aquí]
+El comando git pull se utiliza para descargar los últimos cambios desde un repositorio remoto (como GitHub) y fusionarlos automáticamente con tu rama actual en el repositorio local. Debes usarlo siempre antes de empezar a trabajar para asegurarte de tener la versión más reciente del código y evitar conflictos con el trabajo de otros colaboradores.
 
 ----------------------------------------------------------------
 PREGUNTA 3 (5 pts)
 ¿Qué diferencia hay entre un repositorio local y uno remoto?
 
 Tu respuesta:
-[Escribe aquí]
+El repositorio local es la copia del proyecto que reside físicamente en tu propia computadora, donde realizas tus cambios y guardas tus commits sin necesidad de internet. El repositorio remoto es la versión del proyecto que está alojada en un servidor en la nube (como GitHub), la cual sirve como punto central para compartir el código con otros desarrolladores y respaldar el trabajo.
 
 ----------------------------------------------------------------
 PREGUNTA 4 (5 pts)
@@ -32,7 +32,9 @@ Escribe la secuencia completa de comandos para subir un nuevo
 archivo llamado "datos.csv" a GitHub (desde git add hasta push):
 
 Tu respuesta:
-[Escribe aquí]
+​git add datos.csv (Prepara el archivo específico).
+​git commit -m "Agregar archivo datos.csv" (Crea el registro del cambio con un mensaje).
+​git push (Sube el commit del repositorio local al repositorio remoto en GitHub).
 
 ----------------------------------------------------------------
 FIN DEL ARCHIVO
